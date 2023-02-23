@@ -82,6 +82,8 @@ class OvlerayViewController: UIViewController {
     
     /// 镂空部分
     func addLouKong() {
+        self.view.layoutIfNeeded()
+        
         let path = UIBezierPath(rect: containerView.frame)
         let overlayPath = UIBezierPath(rect: overlay.frame)
         path.append(overlayPath)
