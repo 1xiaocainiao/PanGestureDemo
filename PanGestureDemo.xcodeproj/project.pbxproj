@@ -18,6 +18,7 @@
 		A09EFCD129A733A1001B4D62 /* PanGestureDemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFCD029A733A1001B4D62 /* PanGestureDemoUITestsLaunchTests.swift */; };
 		A09EFCDF29A733BD001B4D62 /* OverlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFCDD29A733BD001B4D62 /* OverlayView.swift */; };
 		A09EFCE029A733BD001B4D62 /* OvlerayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09EFCDE29A733BD001B4D62 /* OvlerayViewController.swift */; };
+		A0D21C3D2A36E84A0036F454 /* SheepskinRaftView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0D21C3C2A36E8490036F454 /* SheepskinRaftView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		A09EFCD029A733A1001B4D62 /* PanGestureDemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PanGestureDemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A09EFCDD29A733BD001B4D62 /* OverlayView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OverlayView.swift; sourceTree = "<group>"; };
 		A09EFCDE29A733BD001B4D62 /* OvlerayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OvlerayViewController.swift; sourceTree = "<group>"; };
+		A0D21C3C2A36E8490036F454 /* SheepskinRaftView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SheepskinRaftView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				A09EFCAF29A7339D001B4D62 /* SceneDelegate.swift */,
 				A09EFCDD29A733BD001B4D62 /* OverlayView.swift */,
 				A09EFCDE29A733BD001B4D62 /* OvlerayViewController.swift */,
+				A0D21C3C2A36E8490036F454 /* SheepskinRaftView.swift */,
 				A09EFCB129A7339D001B4D62 /* ViewController.swift */,
 				A09EFCB329A7339D001B4D62 /* Main.storyboard */,
 				A09EFCB629A733A1001B4D62 /* Assets.xcassets */,
@@ -264,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0D21C3D2A36E84A0036F454 /* SheepskinRaftView.swift in Sources */,
 				A09EFCE029A733BD001B4D62 /* OvlerayViewController.swift in Sources */,
 				A09EFCB229A7339D001B4D62 /* ViewController.swift in Sources */,
 				A09EFCDF29A733BD001B4D62 /* OverlayView.swift in Sources */,
