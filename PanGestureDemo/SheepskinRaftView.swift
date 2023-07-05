@@ -921,19 +921,17 @@ class UploadScopeRegionModel: Codable {
 //
 //        switch pan.state {
 //        case .began:
-//            if let view = overLayViews.last {
-//                if CGRectContainsPoint(view.frame, point) {
-//                    startPoint = point
-//                    startFrame = view.frame
-//                    currentOverlayView = view
-//                    currentPanEdge = calculatePanEdge(at: point)
-//                    return
-//                } else {
-//                    reset()
-//                }
-//            } else {
-//                reset()
-//            }
+//reset()
+//
+//for view in overLayViews.reversed() {
+//    if CGRectContainsPoint(view.frame, point) {
+//        startPoint = point
+//        startFrame = view.frame
+//        currentOverlayView = view
+//        currentPanEdge = calculatePanEdge(at: point)
+//        return
+//    }
+//}
 //        case .changed:
 //            updateOverlayFrame(at: point)
 //        default:
