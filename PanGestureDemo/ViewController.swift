@@ -52,6 +52,9 @@ class ViewController: UIViewController {
         self.navigationController?.pushViewController(OvlerayViewController(), animated: true)
     }
     
+    @IBAction func pushRatio(_ sender: UIButton) {
+        self.navigationController?.pushViewController(RatioOverlayController(), animated: true)
+    }
 }
 
 extension ViewController{

@@ -20,6 +20,7 @@ enum PanEdge {
     case center
 }
 
+/// 有镂空效果
 class OvlerayViewController: UIViewController {
     
     var containerView: UIView!
